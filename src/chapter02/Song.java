@@ -8,6 +8,41 @@ public class Song {
 	private int year;
 	private int track;
 	
+	public Song(){
+	}
+	
+	public Song(String title, String artist){
+		this(title,artist,"","",0,0); // -> 기존의 생성자를 호출 함으로써 중복되는 코드를 줄인다. 
+				
+// 중복되는 코드들.....		
+//		this.title = title;
+//		this.artist = artist;
+//		//Some Codes.......
+//		//Some Codes.......
+//		//Some Codes.......
+//		//Some Codes.......
+//		//Some Codes.......
+//
+	}
+	
+	public Song(String title, String artist, String album, String composer, int year, int track){
+		this.title = title;
+		this.artist = artist;
+		this.album = album;
+		this.composer = composer;
+		this.year = year;
+		this.track = track;
+		
+//		//Some Codes.......
+//		//Some Codes.......
+//		//Some Codes.......
+//		//Some Codes.......
+//		//Some Codes.......
+
+	}
+	
+	
+	
 	public String getTitle() {
 		return title;
 	}
