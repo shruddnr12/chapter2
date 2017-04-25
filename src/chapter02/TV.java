@@ -40,14 +40,7 @@ public class TV {
 	public void power(boolean on)
 	{
 		 power = on;
-//		if(on == true)
-//		{
-//			power = on;
-//		}
-//		else
-//		{
-//			power = on;
-//		}
+
 	}
 	public void channel(boolean up)
 	{
